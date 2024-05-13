@@ -1,0 +1,21 @@
+Developmemnt stage :- 
+
+  - Git secrets, security plugins in IDE, Trufflehog
+
+Security:- 
+
+  - Code Quality tools - Sonarqube
+  - Static Application Security Testing (SAST) tools - ( Checkmarx, Fortify, Veracode )
+  - Software  Composition Analysis (SCA) security tools - ( Snyk, Fortify, Veracode, Blackduck )
+  - Dynamic Application Security Testing (DAST) tools - ( OWASP ZAP, WebInspect. Veracode DAST, Acunetix )
+  - Infrastucture As Code (IAC) security tool - ( Bridgecrew, Snyk )
+  - Container Security tools - ( Aqua, Qualys, PrismaCloud )
+
+
+Operations :-
+
+  - Build Pipeline tools - ( Jenkins, AWS, GCP Cloudbuild, Azure DevOps, GitHub Actions, GitLab )
+  - Cloud Security Posture Management tools - ( AQUA, BridgeCrew )
+  - Container Registry Scanning tools - ( AQUA, AWS Native Registry Scanning )
+  - Infrastructure Scanning tools - ( Chef Inspec(Complaince), Nessus )
+  - Cloud Security tools - (AWS Security Hub, Azure Defender)
