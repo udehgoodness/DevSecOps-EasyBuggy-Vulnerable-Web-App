@@ -1,0 +1,25 @@
+1. SAST (Static Application Security Testing):
+   - White box testing analyzing source code.
+   - Can be manual or automated using tools like Fortify, Veracode, SonarQube.
+
+2. SCA (Software Composition Analysis):
+   - Identifies third-party libraries in source code, along with license and security issues.
+   - Tools like Snyk automate SCA.
+
+3. DAST (Dynamic Application Security Testing):
+   - Black-box testing for web and mobile apps.
+   - Automated tools like OWASP ZAP, Veracode, Web Inspect are used.
+
+4. IAST (Interactive Application Security Testing):
+   - Blend of SAST and DAST, focusing on specific workflows.
+   - Aims to overcome limitations of SAST and DAST.
+
+5. IAC (Infrastructure as Code):
+   - Creating infrastructure using code files.
+   - Examples: CloudFormation templates for AWS, Terraform for Azure and AWS.
+   - Security issues in these files termed as IAC security testing.
+
+6. API Security:
+   - Identifies security issues within APIs.
+   - Essential for securing microservices, which are subsets of APIs.
+   - E.g., a user registration API may have microservices for user management tasks.
